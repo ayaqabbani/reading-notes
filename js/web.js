@@ -6,6 +6,7 @@ function avgCalculator(Mark1, Mark2, Mark3) {
     var sum = parseInt(Mark1) + parseInt(Mark2) + parseInt(Mark3);
     var avg = sum / 3;
     alert("your total mark is" + avg);
+
     if (avg >= 50) {
         alert("please fill the survey");
     } else if (avg < 50) {
@@ -22,6 +23,7 @@ var Mark3 = 0;
 
 confirm("are you one of our students?");
 var studentName = prompt("what's your name?");
+confirm("we offer great books if you want to check them out in the survey page");
 
 while (counter < 3) {
     if (counter === 0) {
